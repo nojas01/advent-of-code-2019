@@ -136,4 +136,4 @@ exports.puzzleThreeInput = [
     14,
     0,
     0,
-]
+];

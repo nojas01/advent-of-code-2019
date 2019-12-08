@@ -18,4 +18,3 @@ exports.puzzleTwoSolution = (inputs) => {
 
 console.log('puzzleOneSolution',exports.puzzleOneSolution(firstPuzzleInput));
 console.log('puzzleTwoSolution',exports.puzzleTwoSolution(firstPuzzleInput));
-

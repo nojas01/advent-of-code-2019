@@ -15,7 +15,7 @@ exports.puzzleThreeSolution = (input = []) => {
         } else if (resultArray[i] === 99) {
             break
         } else {
-            console.log('error')
+            console.log('error');
             break
         }
     }
@@ -23,4 +23,3 @@ exports.puzzleThreeSolution = (input = []) => {
 };
 
 console.log('puzzleThreeSolution',exports.puzzleThreeSolution(puzzleThreeInput)[0]);
-

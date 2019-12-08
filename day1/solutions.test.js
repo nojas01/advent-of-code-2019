@@ -16,8 +16,8 @@ test('recursion singles', () => {
     expect(puzzleTwoSolution([14])).toBe(2);
     expect(puzzleTwoSolution([1969])).toBe(966);
     expect(puzzleTwoSolution([100756])).toBe(50346);
-})
+});
 
 test('recursion accumulation', () => {
     expect(puzzleTwoSolution([14, 1969, 100756])).toBe(2+966+50346);
-})
+});
