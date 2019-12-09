@@ -1,4 +1,4 @@
-exports.puzzleThreeInput = [
+exports.puzzleInput = [
     1,
     0,
     0,

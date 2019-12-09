@@ -1,4 +1,5 @@
 const {puzzleThreeSolution, puzzleFourSolution} = require('./solutions');
+const {puzzleInput} = require('./inputs');
 
 test ('small arrays', () => {
     expect(puzzleThreeSolution([1,0,0,0,99])).toEqual([2,0,0,0,99]);
@@ -7,3 +8,6 @@ test ('small arrays', () => {
     expect(puzzleThreeSolution([1,1,1,4,99,5,6,0,99])).toEqual([30,1,1,4,2,5,6,0,99]);
 });
 
+test ('variable inputs', () => {
+    expect(puzzleFourSolution(puzzleInput, 4330636)).toMatchObject({noun:12, verb:2})
+})
