@@ -99,4 +99,4 @@ exports.firstPuzzleInput = [
     61024,
     138366,
     127943,
-]
+];
